@@ -21,13 +21,12 @@ module "main" {
   bastion_instance_type = "t2.micro"
   bastion_key_name      = "eworld-bastion"
 
-/*
+
   //jenkins
   jenkins_image_id      = "ami-0f66bf23ed74d9284"
   jenkins_instance_type = "t2.micro"
   jenkins_key_name      = "eworld-jenkins"
 
-*/
 
   //web (launch template > autoscaling)
   web_image_id      = "ami-0f66bf23ed74d9284"

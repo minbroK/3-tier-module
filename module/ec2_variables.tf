@@ -2,11 +2,11 @@ variable "bastion_image_id" {
   type = string
 }
 
-/*
+
 variable "jenkins_image_id" {
   type = string
 }
-*/
+
 
 variable "web_image_id" {
   type = string
@@ -20,11 +20,11 @@ variable "api_image_id" {
 variable "bastion_instance_type" {
   type = string
 }
-/*
+
 variable "jenkins_instance_type" {
   type = string
 }
-*/
+
 variable "web_instance_type" {
   type = string
 }
@@ -36,11 +36,11 @@ variable "api_instance_type" {
 variable "bastion_key_name" {
   type = string
 }
-/*
+
 variable "jenkins_key_name" {
   type = string
 }
-*/
+
 variable "web_key_name" {
   type = string
 }
