@@ -10,4 +10,3 @@ hooks:
       timeout: 300
       runas: root
 
-//files의 소스와 afterinstall의location은 저장소에서의 해당 파일의 위치를 뜻한다.
