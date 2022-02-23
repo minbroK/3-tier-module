@@ -1,3 +1,4 @@
+/*
 variable "rds_instance_type" {
   type = string
 }
@@ -39,3 +40,4 @@ variable "rds_username" {
 variable "rds_password" {
   type = string
 }
+*/

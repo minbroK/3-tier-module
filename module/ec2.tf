@@ -12,6 +12,7 @@ resource "aws_instance" "bastion" {
   }
 }
 
+/*
 resource "aws_instance" "jenkins" {
   ami                    = var.jenkins_image_id
   instance_type          = var.jenkins_instance_type
@@ -22,3 +23,4 @@ resource "aws_instance" "jenkins" {
     "Name" = "${var.tag_name}-jenkins"
   }
 }
+*/
