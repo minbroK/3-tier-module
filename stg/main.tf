@@ -67,7 +67,7 @@ module "main" {
 
 
   //rds
-  rds_instance_type = "db.t2.micro"
+  rds_instance_type = "db.t3.medium"
   identifier        = "eworld-mysql"
   engine            = "mysql"
   engine_version    = "5.7"
