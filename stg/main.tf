@@ -66,7 +66,7 @@ module "main" {
   api_cpu_scaleup_threshold   = 60
   api_cpu_scaledown_threshold = 20
 
-
+/*
   //rds
   rds_instance_type = "db.t3.medium"
   identifier        = "eworld-mysql"
@@ -77,5 +77,5 @@ module "main" {
 
   rds_username = "admin"
   rds_password = "Eworld123!"
-
+*/
 }
