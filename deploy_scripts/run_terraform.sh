@@ -1,2 +1,2 @@
-terraform -chdir=/home/ec2-user/project/terraform/eworld-infra-module/ init
-terraform -chdir=/home/ec2-user/project/terraform/eworld-infra-module/ apply -auto-approve
+terraform -chdir=/home/ec2-user/project/terraform/eworld-infra-module/stg/ init
+terraform -chdir=/home/ec2-user/project/terraform/eworld-infra-module/stg/ apply -auto-approve
