@@ -19,7 +19,7 @@ variable "engine_version" {
 variable "allocated_storage" {
   type = string
 }
-
+*/
 
 /*
 variable "max_allocated_storage" {
@@ -27,7 +27,7 @@ variable "max_allocated_storage" {
 }
 */
 
-
+/*
 variable "multi_az" {
   type = bool
 }
