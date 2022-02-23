@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: /home/ec2-user/project/terraform/eworld-infra-module
+    destination: /home/ec2-user/terraform/
+
+hooks:
+  AfterInstall:
+    - location: /home/ec2-user/project/terraform/eworld-infra-module/deploy_scripts/run_terraform.sh
+      timeout: 300
+      runas: root
