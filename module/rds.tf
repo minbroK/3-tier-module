@@ -1,5 +1,4 @@
 #rds 생성
-/*
 resource "aws_db_subnet_group" "rds_subnet_group" {
   name = "${var.tag_name}-rds-subnet-group"
   subnet_ids = [
@@ -27,4 +26,4 @@ resource "aws_db_instance" "rds" {
   username = var.rds_username
   password = var.rds_password
 }
-*/
+
