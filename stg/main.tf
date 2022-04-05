@@ -19,25 +19,25 @@ module "main" {
   //bastion
   bastion_image_id      = "ami-0f66bf23ed74d9284"
   bastion_instance_type = "t2.micro"
-  bastion_key_name      = "eworld-bastion"
+  bastion_key_name      = "mhkim-bastion"
 
 
   //jenkins
   jenkins_image_id      = "ami-0f66bf23ed74d9284"
   jenkins_instance_type = "t2.micro"
-  jenkins_key_name      = "eworld-jenkins"
+  jenkins_key_name      = "mhkim-jenkins"
 
 
   //web (launch template > autoscaling)
   web_image_id      = "ami-0f66bf23ed74d9284"
   web_instance_type = "t2.micro"
-  web_key_name      = "eworld-web"
+  web_key_name      = "mhkim-web"
 
 
   //api (launch template > autoscaling)
   api_image_id      = "ami-0f66bf23ed74d9284"
   api_instance_type = "t2.micro"
-  api_key_name      = "eworld-api"
+  api_key_name      = "mhkim-api"
 
 
   //asg
@@ -68,13 +68,13 @@ module "main" {
 
   //rds
   rds_instance_type = "db.t3.medium"
-  identifier        = "eworld-mysql"
+  identifier        = "mhkim-mysql"
   engine            = "mysql"
   engine_version    = "5.7"
   allocated_storage = "30"
   multi_az          = false
 
   rds_username = "admin"
-  rds_password = "Eworld123!"
+  rds_password = "mhkim123!"
 
 }
