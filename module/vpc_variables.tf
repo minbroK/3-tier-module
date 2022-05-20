@@ -1,6 +1,6 @@
 variable "tag_name" {
   type    = string
-  default = "eworld-stg"
+  default = "mhkim-stg"
 }
 
 variable "vpc_cidr_block" {
